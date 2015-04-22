@@ -5,7 +5,7 @@ $mysqli = new mysqli('localhost', 'root', 'root', 'project');
 			. $mysqli->connect_error);
 	}
 	else {
-		echo "Connection made";
+		// echo "Connection made";
 	}
 $mysqli->close();
 ?>
