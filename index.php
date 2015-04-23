@@ -10,7 +10,29 @@
 	<div class="wrap">
 		<div class="task-list">
 			<ul>
-				<?php require("includes/connect.php"); ?>
+				<?php require("includes/connect.php"); 
+					$mysqli = new mysqli('localhost', 'root', 'root', 'todo');
+					// is selecting from all tasks 
+					$query = "SELECT * FROM tasks ORDER BY date ASC, time ASC";
+
+					if ($result = $mysqli->query($query)) {
+						// we want all variables to go to this function
+						$numrows = $result->num_rows;
+						if($numrows>0) {
+							// loop
+							while($row = $result->fetch_assoc()) {
+								$task_id = $row['id'];
+								$task_name = $row['task'];
+								// creating new variables 
+								// echoing a basic idea using the variables
+								echo '<li>
+								<span>'.$task_name. '</span>
+								<img id="'.$task_id.'" class="delete-button" width="10px" src="images/close.svg"/>
+								</li>';
+							}
+						}
+					}
+				?>
 			</ul>
 		</div>
 <form class="add-new-task" autocomplete="off">
