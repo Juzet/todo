@@ -5,7 +5,7 @@
     require_once(__DIR__ . "/../controller/login-verify.php");
 
     if (!authenticateUser()) {
-        header("Location: " . $path . "home.php");
+        header("Location: " . $path . "start.php");
         die();
     }
 ?>
