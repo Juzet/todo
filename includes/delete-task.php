@@ -3,7 +3,7 @@
 	require('connect.php');
 	$mysqli = new mysqli('localhost', 'root', 'root', 'project');
 
-	if($result = $mysqli->query("DELETE FROM tasks WHERE id='task_id'")) {
+	if($result = $mysqli->query("DELETE FROM task WHERE id='task_id'")) {
 
 	}
 ?>
