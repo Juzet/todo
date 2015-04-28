@@ -5,14 +5,20 @@
     require_once(__DIR__ . "/../controller/login-verify.php");
 
     if (!authenticateUser()) {
-        header("Location: " . $path . "start.php");
-        die();
+            die();
+    }
+    else {
+
     }
 ?>
 <nav>
     <ul>
         <!-- create a link that point to the post file -->
-         <li><a href="<?php echo $path. "login.php" ?>">Blog Post Form</a></li>
-          <li><a href="<?php echo $path. "register.php" ?>">Blog Post Form</a></li>
+        <div id="box">
+            <a href="<?php echo $path. "login.php" ?>"><p id="box">Login</p></a>
+        </div>
+        <div id="box2">
+            <a href="<?php echo $path. "register.php" ?>"><p id="box2">Register</p></a>
+        </div>
     </ul>
 </nav>

@@ -1,0 +1,136 @@
+body {
+	background-image: url("https://ununsplash.imgix.net/photo-1420708392410-3c593b80d416?fit=crop&fm=jpg&h=725&q=75&w=1050");
+	background-size: cover;
+}
+#box{
+	font-size: 50px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+}
+#box2 {
+	font-size: 50px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+}
+#liberty {
+	background-image: url("https://unsplash.imgix.net/photo-1414912925664-0c502cc25dde?fit=crop&fm=jpg&h=700&q=75&w=1050");
+	background-size: cover;
+}
+#lie {
+	background-image: url("https://unsplash.imgix.net/photo-1428342319217-5fdaf6d7898e?fit=crop&fm=jpg&h=500&q=75&w=1050");
+	background-size: cover;
+}
+#reg{
+text-align: center;
+font-size: 50px;
+opacity: .5;
+font-family: 'Playball', cursive;
+} 
+h1 {
+  font-family:'Chango';
+  font-size:50px;  
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  /* set the background image */
+  background:url(https://cask.scotch.io/2014/11/mountain1.jpg);
+  background-position:bottom;
+  background-size:cover;
+
+  /* set the transition speed */
+  transition:2s ease all;
+}
+
+/* handle what happens on hover */
+h1:hover {
+  background-position:top;
+}
+#user {
+	text-align: center;
+	font-size: 50px;
+	opacity: .5;
+	font-family: 'Playball', cursive;
+} 
+#pass {
+	text-align: center;
+	font-size: 50px;
+	opacity: .5;
+	font-family: 'Playball', cursive;
+}
+#sub {
+	text-align: center;
+	opacity: .5;
+	font-family: 'Playball', cursive;
+}
+#log {
+	text-align: center;
+	font-size: 70px;
+	opacity: .5;
+	font-family: 'Playball', cursive;
+	padding: 25px;
+}
+#us {
+	text-align: center;
+	font-size: 50px;
+	opacity: .5;
+	font-family: 'Playball', cursive;
+} 
+#pa {
+	text-align: center;
+	font-size: 50px;
+	opacity: .5;
+	font-family: 'Playball', cursive;
+}
+input#login{
+font-family: 'Playball', cursive;
+cursor:pointer;
+padding:5px 25px;
+background:black;
+border:1px solid brown; 
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+-webkit-box-shadow: 0 0 4px rgba(0,0,0, .75);
+-moz-box-shadow: 0 0 4px rgba(0,0,0, .75);
+box-shadow: 0 0 4px rgba(0,0,0, .75);
+color:#f3f3f3;
+font-size:50px;
+}
+
+input#login:hover, input#login:focus{
+background-color :brown;
+-webkit-box-shadow: 0 0 1px rgba(0,0,0, .75);
+-moz-box-shadow: 0 0 1px rgba(0,0,0, .75);
+box-shadow: 0 0 1px rgba(0,0,0, .75);
+}
+input#u{
+font-family: 'Playball', cursive;
+padding:5px 25px;
+background:black;
+border:1px solid brown; 
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+-webkit-box-shadow: 0 0 4px rgba(0,0,0, .75);
+-moz-box-shadow: 0 0 4px rgba(0,0,0, .75);
+box-shadow: 0 0 4px rgba(0,0,0, .75);
+color:#f3f3f3;
+font-size:20px;
+}
+input#p{
+margin: 20px;
+font-family: 'Playball', cursive;
+padding:5px 25px;
+background:black;
+border:1px solid brown; 
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+-webkit-box-shadow: 0 0 4px rgba(0,0,0, .75);
+-moz-box-shadow: 0 0 4px rgba(0,0,0, .75);
+box-shadow: 0 0 4px rgba(0,0,0, .75);
+color:#f3f3f3;
+font-size:20px;
+}

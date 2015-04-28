@@ -15,7 +15,10 @@
     	   .  "salt = '$salt'");
 
     if ($query) {
-    	echo "Successfully created users: $username";
+    	// echo "Successfully created users: $username";
+                header("Location: " .$path . "login.php");
+
+
     }
     else {
     	 echo "<p>" . $_SESSION["connection"]->error. "</p>";

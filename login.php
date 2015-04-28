@@ -1,6 +1,17 @@
-<?php
+<!DOCTYPE html>
 
-         // store the form.php file
-    require_once(__DIR__ . "/view/header.php");
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="images.css">
+        <link type="text/css" rel="stylesheet" href="css/main2.css">
+        <meta charset="UTF-8">
+        <title></title>
+    </head>
+    <body id="liberty">
+<?php
+    // require_once(__DIR__ . "/view/header.php");
     require_once(__DIR__ . "/view/login-form.php");
-    require_once(__DIR__ . "/view/footer.php");
+    // require_once(__DIR__ . "/view/footer.php");
+?>
+</body>
+</html>
