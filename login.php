@@ -2,8 +2,9 @@
 
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="images.css">
+        <!-- <link rel="stylesheet" type="text/css" href="images.css"> -->
         <link type="text/css" rel="stylesheet" href="css/main2.css">
+        <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
         <meta charset="UTF-8">
         <title></title>
     </head>

@@ -6,7 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 </head>
-<body>
+<body>	
 	<div class="wrap">
 		<div class="task-list">
 			<ul>
@@ -39,7 +39,7 @@
 	</div>
 	<form class="add-new-task" autocomplete="off">
 	<!-- this will pop up on the screen  -->
-		<input type="text" name="new-task" placeholder="Add new item..."/>
+		<input id="add" type="text" name="new-task" placeholder="Add new item..."/>
 	</form>
 	</div>
 </body>
@@ -75,4 +75,5 @@
 	});
 });
 </script>
+<a id="logout" href="start.php" >Logout</a>
 </html>
